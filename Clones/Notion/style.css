@@ -1,0 +1,1225 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    /* border-bottom: 1px solid #e0e0e0; */
+    position: fixed;
+    width: 100%;
+}
+
+nav .box1, .box2 {
+    display: flex;
+    align-items: center;
+    /* flex-direction: row; */
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-right: 20px;
+}
+
+.logo img{
+    width: 25px;
+    height: 25px;
+}
+
+.logo p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+button {
+    background: none;
+    border: none;
+    margin: 0 10px;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+button:hover {
+    background-color: #f2f2f2;
+    border-radius: 5px;;
+}
+
+p {
+    margin: 0 5px;
+    font-weight: bold;
+}
+
+nav .box2 p{
+    font-weight: 10;
+    color: #e9e6e6;
+}
+
+
+#Get_Notion_Free{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+
+}
+
+#Get_Notion_Free:hover{
+    text-shadow: 0px 15px 5px #f2f2f2;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    padding-left: 130px;
+    padding-right: 130px;
+    /* height: 1000vh; */
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+
+
+
+/* Section 1 CSS */
+
+.section1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* height: 55vh; */
+    margin-top: 25px;
+    width: 100%;
+    align-items: center;
+    margin-top: 100px;
+}
+
+
+.section1 .information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+
+}
+
+
+.section1 .information .info {
+    font-family:"Inter", sans-serif;
+}
+
+.section1 .information .info h1{
+    font-weight: 605;
+    color: rgb(26, 26, 26);
+    font-size: 77px;
+    line-height: 73px;
+}
+
+.section1 .information .info h3{
+    font-weight: 500;
+    color: rgb(26, 26, 25);
+    font-size: 24px;
+    line-height: 30px;
+    margin: 15px;
+}
+
+.section1 .information .info .btn2 {
+    color: rgb(8, 127, 231);
+    background-color: #d6e1f5;
+    border: 0px solid white;
+    font-weight: 600;
+    line-height: 23px;
+    font-size: 16px;
+    /* height:30px; */
+}
+
+
+
+.section1 .information .collabs{
+    width : 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-weight: 500;
+    color: rgb(164, 159, 152);
+    line-height: 22px;
+    font-size: 15px;
+    margin: 50px;
+
+}
+
+.section1 .information .collabs .logos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 8px;
+    height: 30px;
+    /* width: 40vw; */
+    justify-content: space-between;
+    padding: 1px;
+    margin: 5px;
+        
+}
+
+
+
+.section1 #hero1{
+    width: 37.5vw;
+    height: 35vh;
+    padding-top: 30px;
+}
+
+
+video::-webkit-media-controls {
+    display: none !important;
+}
+
+video::-webkit-media-controls-enclosure {
+    display: none !important;
+}
+
+
+
+
+/* Section 2 CSS */
+
+
+.section2{
+    margin-bottom: 150px;
+}
+
+.section2 img{
+    width: 100%;
+    /* height: 100%; */
+    /* margin: 30px; */
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: -3px 3px 15px 0px rgba(128, 128, 128, 0.568);
+}
+
+
+
+.section2 .slides{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.section2 .slides div{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    padding: 5px;
+    border: 0.5px solid #d9d9d9;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+.section2 .slides div:hover{
+    background-color: #f2f2f2;
+}
+
+.section2 .slides div p{
+    font-weight: 500;
+    color: rgb(26, 26, 26);
+    font-size: 16px;
+    line-height: 23px;
+}
+
+
+
+
+
+
+/* Section 3 CSS */
+
+.section3{
+    font-family: "Inter", sans-serif;
+    width: 100%;
+    margin-bottom: 150px;
+}
+
+.section3 .upper{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-bottom: 25px;
+    align-items: flex-end;
+
+}
+
+.section3 .upper .left {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-right: 40px;
+    width: 100%;
+
+}
+
+
+.section3 .upper .left h1{
+    font-weight: 700;
+    font-size: 61px;
+    line-height: 65px;
+    color: rgb(26, 26, 26);
+}
+
+
+.section3 .upper .left h3{
+    font-weight: 500;
+    color: rgb(119, 114, 110);
+    font-size: 18px;
+    line-height: 24px;
+}
+
+
+
+.section3 .upper .left a{
+    font-weight: 500;
+    color: rgb(8, 127, 231);
+    line-height: 24px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+
+.section3 .upper .left a:hover{
+    text-decoration: underline;
+}
+
+
+.section3 .upper .right{
+    display: flex;
+    flex-direction: row;
+    padding-top: 90px;
+    justify-content: space-around;
+    width: 100%;
+    margin-left: 40px;
+    gap: 15px;
+    align-items: flex-end;
+}
+
+.section3 .upper .right div h3{
+    font-weight: 700;
+    color: rgb(26, 26, 26);
+    font-size: 16px;
+    line-height: 23px;
+}
+
+.section3 .upper .right div p{
+    font-weight: 500;
+    color: rgb(119, 114, 110);
+    font-size: 16px;
+    line-height: 23px;
+}
+
+
+#hero2{
+    width: 100%;
+    border-radius: 25px;
+    margin-bottom: 30px;
+}
+
+
+.section3 .lower{
+    margin: 10px;
+    margin-left: 0px;
+}
+
+.section3 .lower .info{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.section3 .lower .info h3{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 23px;
+
+}
+
+.section3 .lower .info div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+
+.section3 .lower .info div p{
+    font-weight: 400;
+    color: rgb(119, 114, 110);
+    font-size: 16px;
+    line-height: 23px;
+
+}
+
+
+
+
+
+/* Section 4 CSS */
+
+.section4{
+    font-family: "Inter", sans-serif;
+    width: 100%;
+    margin-bottom: 150px;
+}
+
+.section4 .upper{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-bottom: 25px;
+    align-items: flex-end;
+
+}
+
+.section4 .upper .left {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-right: 40px;
+    width: 100%;
+
+}
+
+
+.section4 .upper .left h1{
+    font-weight: 700;
+    font-size: 61px;
+    line-height: 65px;
+    color: rgb(26, 26, 26);
+}
+
+
+.section4 .upper .left h3{
+    font-weight: 500;
+    color: rgb(119, 114, 110);
+    font-size: 18px;
+    line-height: 24px;
+}
+
+
+
+.section4 .upper .left a{
+    font-weight: 500;
+    color: rgb(8, 127, 231);
+    line-height: 24px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+
+.section4 .upper .left a:hover{
+    text-decoration: underline;
+}
+
+
+.section4 .upper .right{
+    display: flex;
+    flex-direction: row;
+    padding-top: 90px;
+    justify-content: space-around;
+    width: 100%;
+    margin-left: 40px;
+    gap: 15px;
+    align-items: flex-end;
+}
+
+.section4 .upper .right div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+
+}
+
+.section4 .upper .right div h3{
+    font-weight: 700;
+    color: rgb(26, 26, 26);
+    font-size: 16px;
+    line-height: 23px;
+}
+
+.section4 .upper .right div p{
+    font-weight: 500;
+    color: rgb(119, 114, 110);
+    font-size: 16px;
+    line-height: 23px;
+}
+
+
+#hero3{
+    width: 100%;
+    border-radius: 25px;
+    margin-bottom: 30px;
+}
+
+
+.section4 .lower{
+    margin: 10px;
+    margin-left: 0px;
+}
+
+.section4 .lower .info{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.section4 .lower .info h3{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 23px;
+
+}
+
+.section4 .lower .info div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+
+.section4 .lower .info div p{
+    font-weight: 400;
+    color: rgb(119, 114, 110);
+    font-size: 16px;
+    line-height: 23px;
+
+}
+
+
+
+
+
+
+
+/* Section 5 CSS */
+
+.section5{
+    font-family: "Inter", sans-serif;
+    width: 100%;
+    margin-bottom: 150px;
+}
+
+.section5 .upper{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-bottom: 25px;
+    align-items: flex-end;
+
+}
+
+.section5 .upper .left {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-right: 40px;
+    width: 100%;
+
+}
+
+
+.section5 .upper .left h1{
+    font-weight: 700;
+    font-size: 61px;
+    line-height: 65px;
+    color: rgb(26, 26, 26);
+}
+
+
+.section5 .upper .left h3{
+    font-weight: 500;
+    color: rgb(119, 114, 110);
+    font-size: 18px;
+    line-height: 24px;
+}
+
+
+
+.section5 .upper .left a{
+    font-weight: 500;
+    color: rgb(8, 127, 231);
+    line-height: 24px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+
+.section5 .upper .left a:hover{
+    text-decoration: underline;
+}
+
+
+.section5 .upper .right{
+    display: flex;
+    flex-direction: row;
+    padding-top: 90px;
+    justify-content: space-around;
+    width: 100%;
+    margin-left: 40px;
+    gap: 15px;
+    align-items: flex-end;
+}
+
+.section5 .upper .right div h3{
+    font-weight: 700;
+    color: rgb(26, 26, 26);
+    font-size: 16px;
+    line-height: 23px;
+}
+
+.section5 .upper .right div p{
+    font-weight: 500;
+    color: rgb(119, 114, 110);
+    font-size: 16px;
+    line-height: 23px;
+}
+
+
+#hero4{
+    width: 100%;
+    border-radius: 25px;
+    margin-bottom: 30px;
+}
+
+
+.section5 .lower{
+    margin: 10px;
+    margin-left: 0px;
+}
+
+.section5 .lower .info{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.section5 .lower .info h3{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 23px;
+
+}
+
+.section5 .lower .info div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+
+.section5 .lower .info div p{
+    font-weight: 400;
+    color: rgb(119, 114, 110);
+    font-size: 16px;
+    line-height: 23px;
+
+}
+
+
+
+
+
+
+/* Section 6 CSS */
+
+.section6{
+    position :relative;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+    /* border: 1px solid black;  */
+    transform: rotate(-3deg);
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+
+
+.section6 .notes{
+    font-weight: 400;
+    font-size: 43px;
+    line-height: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #f6f5f4;
+    padding: 10px;
+    width: 50%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.section6 #pin{
+    position: absolute;
+    width: 5%;
+    top:-60px;
+}
+
+.section6 #forbes{
+    position: absolute;
+    width: 5%;
+    bottom: 60px;
+}
+
+
+
+
+
+
+
+
+
+/* Section 7 CSS */
+
+.section7{
+    font-family: "Inter", sans-serif;
+    width: 100%;
+    margin-bottom: 150px;
+}
+
+.section7 .upper{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-bottom: 25px;
+    align-items: flex-end;
+
+}
+
+.section7 .upper .left {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-right: 40px;
+    width: 100%;
+
+}
+
+
+.section7 .upper .left h1{
+    font-weight: 700;
+    font-size: 61px;
+    line-height: 65px;
+    color: rgb(26, 26, 26);
+}
+
+
+.section7 .upper .left h3{
+    font-weight: 500;
+    color: rgb(119, 114, 110);
+    font-size: 18px;
+    line-height: 24px;
+}
+
+
+
+.section7 .upper .left a{
+    font-weight: 500;
+    color: rgb(8, 127, 231);
+    line-height: 24px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+
+.section7 .upper .left a:hover{
+    text-decoration: underline;
+}
+
+
+.section7 .upper .right{
+    display: flex;
+    flex-direction: row;
+    padding-top: 90px;
+    justify-content: space-around;
+    width: 100%;
+    margin-left: 40px;
+    gap: 15px;
+    align-items: flex-end;
+}
+
+.section7 .upper .right div h3{
+    font-weight: 700;
+    color: rgb(26, 26, 26);
+    font-size: 16px;
+    line-height: 23px;
+}
+
+.section7 .upper .right div p{
+    font-weight: 500;
+    color: rgb(119, 114, 110);
+    font-size: 16px;
+    line-height: 23px;
+}
+
+
+#hero4{
+    width: 100%;
+    border-radius: 25px;
+    margin-bottom: 30px;
+}
+
+
+.section7 .lower{
+    margin: 10px;
+    margin-left: 0px;
+}
+
+
+
+
+
+
+
+
+
+/* Section 8 CSS */
+
+.section8 {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 150px;
+}
+
+.section8 .left{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    width: 50%;
+    aspect-ratio: 1.09;
+    border-radius: 8px;
+    background-color: #f6f5f4;
+    position: relative;
+}
+
+.section8 .left .info{
+    padding: 20px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: start;
+    margin-bottom: 30px;
+}
+
+
+.section8 .left .info a{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+}
+.section8 .left .info svg{
+    margin-left: 10px;
+}
+
+.section8 .left .image {
+    margin-left: 35px;
+    position: relative;
+}
+
+.section8 .left .image .main_img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 1px -2px 6px 0px rgba(0, 0, 0, 0.384);
+    z-index: 3;
+    position: inherit;
+}
+
+.section8 .left .image .stack1{
+    position: absolute;
+    background-color: white;
+    top: -20px;
+    left: 30px;
+    height:7%;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 1px -2px 6px 0px rgba(0, 0, 0, 0.384);
+    /* z-index: -1; */
+
+}
+.section8 .left .image .stack2{
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    left: 15px;
+    height:7%;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 1px -2px 6px 0px rgba(0, 0, 0, 0.384);
+    /* z-index: -1; */
+
+}
+
+
+.section8 .right{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    margin-left: 40px;
+    gap: 30px;
+    /* justify-content: center; */
+    /* align-items: center; */
+    box-sizing: border-box;
+}
+
+.section8 .right div{
+    display: flex;
+    width: 47%;
+    flex-direction: column;
+    background-color: rgb(246, 245, 244);
+    /* justify-content: space-evenly; */
+    padding-top: 33px;
+    padding-bottom: 22px;
+    align-items: flex-start;
+    padding-left: 45px;
+    gap: 10px;
+    border-radius: 8px;
+
+    
+}
+
+.section8 .right div svg{
+    width: 30%;
+}
+
+
+.section8 .right div a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Section 9 CSS */
+
+
+.section9{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 150px;
+}
+
+
+.section9 .grid_box{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr); /* 2 equal rows */
+    grid-template-columns: repeat(4, 1fr); /* 4 equal columns */
+    gap: 20px;
+
+
+}
+
+
+.section9 h1{
+    font-weight: 700;
+    font-size: 61px;
+    line-height: 65px;
+    width: 50%;
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+
+.section9 .grid_box div{
+    height: 230px;
+    /* width: 20px; */
+    /* border: 1px solid black; */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px;
+    justify-content: space-between;
+    /* gap: 10px; */
+}
+
+.section9 .grid_box div img{
+    width : 30%;
+}
+
+
+.section9 .grid_box div a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    line-height: 0px;
+    font-size: 24px;
+}
+
+
+.section9 .grid_box div p{
+    font-weight: 400;
+    color: rgb(26, 26, 25);
+    font-size: 20px;
+    line-height: 24px;
+    height: 60px;
+}
+
+
+
+
+
+
+
+
+
+/* Section 10 CSS */
+
+.section10{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 150px;
+}
+
+.section10 h1{
+    font-weight: 700;
+    color: rgb(26, 26, 25);
+    font-size: 61px;
+    line-height: 65px;
+    margin-bottom: 10px;
+    margin-left: 35px;
+}
+
+
+.section10 .cards{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    /* aspect-ratio: 3; */
+    /* height: ; */
+    overflow: hidden;
+    margin-left: 20px;
+    gap: 10px;
+}
+
+.section10 .cards div{
+    margin: 20px;
+    padding: 20px;
+    padding-left: 10px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    background-color: #f6f5f4;
+    border-radius: 12px;
+}
+
+.section10 .cards div img{
+    width: 100%;
+    padding-left: 20px;
+}
+
+.section10 .cards div h1{
+    font-weight: 600;
+    color: rgb(26, 26, 25);
+    line-height: 49px;
+    font-size: 45px;
+    margin-bottom: 10px;
+    /* padding-left: 10px; */
+}
+
+.section10 .cards div .buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    margin: 20px;
+}
+
+
+.section10 .cards div .btn1{
+    font-weight: 600;
+    color: white;
+    line-height: 23px;
+    font-size: 16px;
+    background-color: #0583FE;
+}
+.section10 .cards div .btn1:hover{
+    background-color: rgb(4, 90, 195);
+}
+
+
+.section10 .cards div .btn2{
+    font-weight: 600;
+    color: black;
+    line-height: 23px;
+    font-size: 16px;
+    border: 0px;
+    background-color: #ffffff;
+
+}
+
+.section10 .cards div .btn2:hover{
+background-color: #eaeaea;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer CSS */
+
+footer{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-left: 250px;
+    padding-right: 250px;
+    margin-bottom: 100px;
+}
+
+footer .logos{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    /* align-items: flex-start; */
+
+}
+
+
+footer .logos .notion{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+    font-weight: 400;
+    color: rgb(26, 26, 25);
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 0px;
+}
+
+
+footer .logos .social_media{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 35px;
+    margin-bottom: 40px;
+    padding-right: 50px;
+
+}
+
+footer .logos button{
+    margin-left: 0px;
+    width: 100px;
+    border: 1px solid rgba(20, 20, 20, 0.233);
+    border-radius: 8px;
+
+}
+
+
+footer .logos p{
+    font-weight: 400;
+    color: rgb(26, 26, 25);
+    font-size: 14px;
+    line-height: 19px;
+    margin: 10px;
+    margin-left: 0px;
+}
+
+footer .logos a{
+    text-decoration: none;
+    font-weight: 400;
+    color: rgb(95, 92, 88);
+    font-size: 14px;
+    line-height: 19px;
+    margin-bottom: 10px;
+}
+
+footer .logos span{
+    font-weight: 400;
+    color: rgb(26, 26, 25);
+    font-size: 14px;
+    line-height: 19px;
+}
+
+footer .extra{
+    display: flex;
+    flex-direction: row;
+
+}
+
+footer .extra .box1_ , .box2_, .box3_, .box4_{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 55px;
+    margin-right: 55px;
+}
+
+footer .extra div{
+    height: 20px;
+    width: 150px;
+}
+
+footer .extra .box_{
+    font-weight: 600;
+    color: rgb(26, 26, 25);
+    line-height: 22px;
+    font-size: 15px;
+}
+
+footer .extra .box{
+    font-weight: 400;
+    color: rgb(50, 49, 47);
+    line-height: 22px;
+    font-size: 15px;
+}
